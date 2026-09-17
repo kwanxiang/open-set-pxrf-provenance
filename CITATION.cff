@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: >-
+  Analysis code for "Knowing when not to assign: uncertainty-aware open-set
+  machine learning for pXRF-based archaeological ceramic provenance"
+message: If you use this software, please cite it using these metadata.
+type: software
+authors:
+  - given-names: Kun
+    family-names: Xiang
+    email: xiangkun@ctgu.edu.cn
+    affiliation: >-
+      Research Center for Machine Learning and Environmental Decision Science,
+      China Three Gorges University, Yichang, China
+license: MIT
+repository-code: https://github.com/kwanxiang/open-set-pxrf-provenance
+keywords:
+  - archaeometry
+  - ceramic provenance
+  - portable X-ray fluorescence
+  - open-set recognition
+  - conformal prediction
+  - selective classification
