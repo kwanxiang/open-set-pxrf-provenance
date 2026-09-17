@@ -2,8 +2,8 @@
 
 The archive carries the derived tables, figure source data, checksum manifest
 and execution logs. The analysis code and the environment specification are not
-distributed here; they are supplied by the corresponding author on request, as
-stated in the Code availability section.
+distributed here; they are published in the repository named in the Code
+availability section.
 """
 from __future__ import annotations
 
@@ -72,8 +72,8 @@ from the DOI locations listed in data/raw/SOURCES.md and verify their SHA-256
 checksums against the values recorded there.
 
 The analysis code and the environment specification are not included in this
-archive. They are available from the corresponding author on reasonable
-request.
+archive. They are openly available at
+https://github.com/kwanxiang/open-set-pxrf-provenance under the MIT licence.
 
 ARCHIVE_CONTENTS_SHA256.txt records a SHA-256 digest for every included file.
 """
@@ -96,5 +96,5 @@ with zipfile.ZipFile(OUT, "w", compression=zipfile.ZIP_DEFLATED,
 log(f"wrote {OUT}")
 log(f"included {len(files) + 2} files")
 log("original workbooks excluded; DOI locations and checksums retained")
-log("analysis code and environment specification excluded (supplied on request)")
+log("analysis code and environment specification excluded (published on GitHub)")
 log.close()
